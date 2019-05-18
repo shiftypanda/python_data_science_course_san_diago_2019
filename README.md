@@ -3,6 +3,7 @@
 Python intro to data science course from university of san diago
 
 Course location:-
+https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2019a/courseware/fe01d78b51774259ada67d772eee5f1c/415f9db79b3b4564930c300789bfbba9/?child=first
 
 This reposisotry covers my own learning and notes throuhgout the course
 
