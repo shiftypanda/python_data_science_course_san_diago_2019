@@ -9,7 +9,7 @@ This reposisotry covers my own learning and notes throuhgout the course
 
 Outline of course taken from official site:-
 
-Course Outline
+### Course Outline
 
 The course is broken into 10 weeks.  The beginning of the course is heavily focused on learning the basic tools of data science, but we firmly believe that you learn the most about data science by doing data science.  So the latter half of the course is a combination of working on large projects and introductions to advanced data analysis techniques.
 
