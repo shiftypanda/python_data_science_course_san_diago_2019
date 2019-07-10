@@ -6,13 +6,28 @@ https://youtu.be/iyERyfDJtl4
 ## key design principles
 https://youtu.be/Lsjm0PSDekQ
 
+### Elegance
+* Elegance of presenting of findings, map overlay colour scheme clear display of information rather than numerics
+* focus on what is relevant
+* be stylish if possible
+
+
 ## Notebook: Data Visualization
 Bookmark this page
 Please download the notebooks for this week so you can follow along with us during the videos and play with the code yourself.
 
 ## matplotlib
-
 https://youtu.be/B8c45qzsESU
+
+* easy to produce quick plots of data
+matplotlib tries to make easy things easy and hard things possible
+https://matplotlib.org/
+
+lots of other tools
+seaborn, ggplot, altair, bokeh, plotly, folium
+
+
+
 
 ## world development indicators
 https://youtu.be/PK_8cXbaRik
