@@ -35,6 +35,9 @@ https://youtu.be/PK_8cXbaRik
 ## basic plotting in matplotlib part 1
 https://youtu.be/cYFY-ZgM6yU
 
+explring CO2 emissions for united states
+
+
 ## basic plotting in matplotlib part 2
 https://youtu.be/GlR-V0GtRfE
 
