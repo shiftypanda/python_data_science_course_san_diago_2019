@@ -36,13 +36,64 @@ https://youtu.be/PK_8cXbaRik
 https://youtu.be/cYFY-ZgM6yU
 
 explring CO2 emissions for united states
+plot.plot command to make basic plot
+
+plt.title('C02 emissions;)
+
+plt.hist() creates histogram
+pass it ndarray, then 10 for number of bins, noraml false, faceolor
+e.g. plt.hist(hist_data, 10, density=False, facecolor='green')
+
+slect differnet year
+
+plotting histogram against different other countries
+
+plt.subplots() gives figure and axis back seperately
+
+plt.hist calling 
+plt.hist(co2_2011['Value'], 10, normed=False, facecolor='green')
+
+annotate method allowing to show poiting to one specific places
+ax.annotate("USA",
+            xy=(18, 5), xycoords='data',
+            xytext=(18, 30), textcoords='data',
+            arrowprops=dict(arrowstyle="->",
+                            connectionstyle="arc3"),
+            )
+
+common features from matplotlib
+- bar chart
+- axes
+- axes labels
+- figure labels
+- legend
+- asesthetics
+- annotatinos
+
 
 
 ## basic plotting in matplotlib part 2
 https://youtu.be/GlR-V0GtRfE
 
+Second part of dat set
+aim to look at line charts and scatterplots
+
+calling min anx max on columns so that they are on the same year and staging
+needing to truncate areas if shows mroe ifnormation on it
+
+really helpful to look at the commands for plttoign groups
+remembienr msot of thet ime i would be creating a mask intialyl to gather right data and then send that thorugh to the matplotlib library for further display.
+
+I experiement with UK data and produced some interseting additios showing there has acutaly been a decline in CO2 emissions over time.
+
+
 ## matplotlib additional examples
 https://youtu.be/Tw_VXI5xiqM
+
+lots of differnet other way sto display informaiton
+short scritps to go through and check for any missing data
+
+
 
 ## folium example
 https://youtu.be/mOU59G29V7o
