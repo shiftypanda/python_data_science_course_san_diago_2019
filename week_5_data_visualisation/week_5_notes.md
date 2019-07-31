@@ -146,8 +146,41 @@ If you are wanting to practice and test your knowledge by developing other noteb
 ## case study 1 cholera
 https://youtu.be/U_D6TwZKQWQ
 
+case study looking at data visualtion in undersntaindg how chororea spread
+remains public health threat
+bacteira infeciton diarrhea
+
+1854 identifeid how cholera spread
+well water contamination
+was thought to be due to smelling something bad
+John Snow - scientist, anaesthetist theory that cholera 1839 was waterborne
+lived near to find where everyone who got the water from and deaths
+outliers helpful for idenitnfy why things were happenign, workhouse had noinfecitosn in area of braod street because they had their own water supply
+baby had become ill with cholera near to pump, they had not disposed of nappiy waste problay wentinto cesspit that then filetered into the water pump
+this then led to water sanitation
+
+he completed map to visualise the deaths from choelra related to pump
+
+
 ## case stud 2 napoleans march
 https://youtu.be/4PDBHBX9d1o
+
+frances russian campaign of nappoelas russian campaingin 1812
+Charles Jospeh Minard
+using visualisations in statistics
+
+lines showing nameof river with startof troop number and then at end of campaing
+plan was to attack smaller russian army near border
+however russian army refused to engage french army in direct conflict, they would retareat destroyign supplies
+after invading moscow waited for surrender for over a month btu didnt happen and witner started to set in. They were attacekd whilst fleeing by russian army.
+Temperatures often below zero
+
+6 differnet types of data being displayed
+- lat, longof army
+- size of army
+- dist traveled
+- temperature during retreated
+
 
 ## Case Study 3 - Interactive Visualization of World Data
 Bookmark this page
@@ -161,4 +194,7 @@ sources
 https://www.youtube.com/watch?v=jbkSRLYSojo
 https://www.theguardian.com/global-development/2017/feb/07/hans-rosling-obituary
 
+Global health working to show
+animating data 
 
+life expectancy, showing Prof Hans Roslings 
