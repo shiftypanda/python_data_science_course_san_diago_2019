@@ -98,6 +98,15 @@ short scritps to go through and check for any missing data
 ## folium example
 https://youtu.be/mOU59G29V7o
 
+when importing and installing on conda use conda install -c folium conda-forge
+
+chloropleth maps binds panda data frame and json geometreis
+key_on what to link features to
+
+note funciotn now depcreated shoudl use class instead
+
+
+
 ## Visualization Libraries
 Bookmark this page
 The following list provides a few plotting libraries for you to get started based on their use case(s).  This list is focused on providing a few solid options for each case rather than overwhelming you with the variety of options available.
