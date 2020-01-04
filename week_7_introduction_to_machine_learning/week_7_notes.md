@@ -3,7 +3,26 @@
 ## introduciton to machine learning
 https://youtu.be/Bxd26C9aDis
 
-## categories of machien learning
+SciKit learn - machine learning library, introduction into getting understanding of machine learning options. Will be able to create simple machine learning algorthyms
+Aim to explain what machien leanring is and 3 applications
+Focuses on computer systems that can learn from data, often called models. Can perform specific task by analyising lto sfo exmaples for a particular problem. Can learn to recognise image of a cat by being shown lots of images of cats.
+Means it can learn a specific task on its own.
+Programmed to learn on its own.
+
+Model learns on its own to determine what it is e.g. if data contains a cat from what is analysed.
+Amount and quality of data avaiable are important thing in how accurate model wil be.
+Can be used ot discover hiddne trends and patterns in data.
+
+Credit card fraud detection - every time used, current purchase analyised against prior purchase to see if legitimate transaction or potentially fraudulent one. e.g. big ticket item in one dont usually buy or from another country, may be denied or may get call from credit card company.
+Hand written cheque machine learnt process. Machien leanring to go through patterns.
+
+Recommendations on websites - after buying item often list of related items, customer who bought this item also bought these. Related items associated using machine learning model. Common application used in sales and marketing.
+- Data mining - linking and use databases to analyse informatino
+- Predictive analytics - predicting purchases and information
+- Big data - data sciecne extracting meaning for collecting insights from big data
+
+
+## categories of machine learning
 https://youtu.be/MUWoy1GpkFo
 
 ## terminology related to machine learning
