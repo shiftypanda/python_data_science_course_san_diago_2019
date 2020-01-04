@@ -10,6 +10,8 @@ name = "pypi"
 jupyter = "*"
 pandas = "*"
 matplotlib = "*"
+folium = "*"
+pip = "*"
 
 
 [dev-packages]
@@ -19,3 +21,8 @@ matplotlib = "*"
 [requires]
 
 python_version = "3.6"
+
+
+[pipenv]
+
+keep_outdated = true
