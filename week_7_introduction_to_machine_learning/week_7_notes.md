@@ -10,20 +10,40 @@ Means it can learn a specific task on its own.
 Programmed to learn on its own.
 
 Model learns on its own to determine what it is e.g. if data contains a cat from what is analysed.
-Amount and quality of data avaiable are important thing in how accurate model wil be.
+Amount and quality of data available are important thing in how accurate model wil be.
 Can be used ot discover hiddne trends and patterns in data.
+Can then create useful insights from the data.
 
-Credit card fraud detection - every time used, current purchase analyised against prior purchase to see if legitimate transaction or potentially fraudulent one. e.g. big ticket item in one dont usually buy or from another country, may be denied or may get call from credit card company.
-Hand written cheque machine learnt process. Machien leanring to go through patterns.
 
-Recommendations on websites - after buying item often list of related items, customer who bought this item also bought these. Related items associated using machine learning model. Common application used in sales and marketing.
-- Data mining - linking and use databases to analyse informatino
-- Predictive analytics - predicting purchases and information
-- Big data - data sciecne extracting meaning for collecting insights from big data
+Many examples of machine learning applications
+
+Credit card fraud detection 
+- every time used, current purchase analyised against prior purchase to see if legitimate transaction or potentially fraudulent one. 
+- e.g. big ticket item in one dont usually buy or from another country, may be denied or may get call from credit card company.
+
+Hand written cheque machine learnt process. 
+- Machien leanring to go through patterns.
+- this reads hand written numbers to identify the information
+- more difficult to detmerien due to diference sin hadnwriting compared to typed responses
+- machine learning patterns helpful to detmerine differences
+
+Recommendations on websites 
+- after buying item often list of related items, customer who bought this item also bought these. Related items associated using machine learning model. Common application used in sales and marketing.
+
+Machine learning terms
+- Data mining 
+-- linking and use databases to analyse information
+- Predictive analytics 
+-- predicting purchases and information, usually used in buisness to describe sales forcasting adn predicitng purchaisng behaviour of a customer
+
+- Big data 
+-- data sciecne extracting meaning for collecting, storing and managing as well as machine learning insights from big data
 
 
 ## categories of machine learning
 https://youtu.be/MUWoy1GpkFo
+
+
 
 ## terminology related to machine learning
 https://youtu.be/4-BXXzMJuk8
