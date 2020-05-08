@@ -397,7 +397,8 @@ https://youtu.be/TeAbMoLdmvk
 
 start 6/5/2020
 
-
+data set from weather station from sep 2014 to sep 2017
+using classficiaont of weather data using decsion trees
 
 
 
