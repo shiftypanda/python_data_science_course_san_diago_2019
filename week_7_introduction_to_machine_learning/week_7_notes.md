@@ -400,7 +400,130 @@ start 6/5/2020
 data set from weather station from sep 2014 to sep 2017
 using classficiaont of weather data using decsion trees
 
+supervised learning task
+- supervised algorhym to learn how to identify using given values
 
+ingest file using
+data = pd.read_csv('directory')
+
+using the information from the columns by using 
+data.columns
+
+
+can display data by calling the object data
+data
+
+## checking for null values
+data[data.isnull().any(axis=1)] shows any data with nul values
+
+Cleaning data
+can drop data if not useful, so in this example with weather station data we will not need to use the indvidiaul number for each row so can be dropped
+
+del data['number']
+
+null values can thenb edropped using pandas dropna function
+
+before_rows = data.shape[0]
+print(before_rows)
+
+data = data.dropna()
+
+after_rows = data.shape[0]
+print(after_rows)
+
+
+can look for number of rowd dropped due to cleaning using
+
+before_rows - after_rows
+
+## converting to a classification task
+
+binarize the relative humidity 3pm to a 0 or 1
+
+clean_data = data.copy()
+clean_data['high_humidty_label'] = (clean_data['relative_humidity_3pm'] > 24.99)*1
+print(clean_data['high_humidity_label'])
+
+this then creates additional column for high humidity
+this creates new variable that is either 0 or 1, which is target variable
+this is the high humidty variable so we then know if it is high humidty or note
+
+y = fx
+
+then create new dat frame called y for what we are trying to predict
+by looking at x try to predict y
+
+y = clean_data[['high_humidity_label']].copy()
+
+this creates the copy of data with high humidity label inot way
+
+can put out head from clean data and y
+checking this by using
+
+clean_data['relative_humidity_3pm'].head()
+
+y.head()
+shows as expected higher labels for humdity over our target value of 24.99
+
+## using 9am sensor signals as features to predict humidity at 3pm
+
+aim is to use morning data to come up with prediction for the afternoon
+morning_features = ['air_pressure_9am','air_temp_9am','avg_wind_direction_9am','avg_wind_speed_9am','max_wind_direction_9am','max_wind_speed_9am','rain_accumulation_9am','rain_duration_9am']
+
+then create x using a copy of clean data and make a dataframe using mornign faetures as columns
+
+x = clean_data[morning_features].copy()
+
+if more complex data types might need deep learning copy
+leave=True so if any complex data types will be copied over to x
+
+## building first model using decisions trees
+
+
+split training set into trainign data and testing data
+
+using train and test split function
+
+X-train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=324)
+
+test_size=0.33 means only show 33% of data for training
+
+random_state seed using here can be changed
+takes two data sets and returns 4 data frames
+
+## decision tree classifier
+humidity_classifier
+
+DecisionTreeClassifier(max_leaf_nodes=10,
+
+leaf_nodes shows maximum number before stopping
+if left as empty will be unlimted and potentaily go outside trainign data
+
+random_state=0
+is used for splitting nodes
+
+humidity_classifier.fit(X_train, y_train}
+
+this will then make classifier tune itself to fit the samples
+once completed will have decisiosn tree classifer based model
+
+## predicting on test set
+
+using prediciotns function of classifer object
+humidity_Classifier.predict(X_test)
+
+asking to predict on test set
+
+
+can show first ten results from prediciotn using slciign
+predictions[:10]
+shows array of first ten results
+can then show this against prelableld humidity labels
+
+using this to then check accuracy
+
+accuracy score function
+accuracy_score(y_true=y_test, y_pred=predictions)
 
 
 # clustering
